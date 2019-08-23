@@ -23,7 +23,7 @@ client.on('message', message => {
 		    message.delete(message)
 		   let hex = '#'+(Math.random()*0xFFFFFF<<0).toString(16);
 		      let embed = new Discord.RichEmbed()
-            .addField("22/08/2019 (Daily Fortnite)", 'http://bin.shortbin.eu:8080/AboZTQwfXs')
+            .addField("Fortnite (New Accs Every 6-9 Hours)", 'http://bin.shortbin.eu:8080/AboZTQwfXs')
             .setColor(hex)
             message.author.send(embed)
 			message.reply(":white_check_mark: Please Check Your **DM**'s!").then(m => {
