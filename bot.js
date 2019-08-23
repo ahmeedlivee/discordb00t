@@ -21,11 +21,7 @@ client.on('message', message => {
 	
     if (message.content === '!fortnite') {
 		    message.delete(message)
-		   let hex = '#'+(Math.random()*0xFFFFFF<<0).toString(16);
-		      let embed = new Discord.RichEmbed()
-            .addField("Updates Every 6-9 Hours", 'http://bin.shortbin.eu:8080/AboZTQwfXs')
-            .setColor(hex)
-            message.author.send(embed)
+		 
 			message.reply(":white_check_mark: Please Check Your **DM**'s!").then(m => {
                 setTimeout(() => {
                     m.delete(m)
@@ -35,11 +31,7 @@ client.on('message', message => {
 
   	if (message.content === '!help') {
 		  message.delete(message)
-		   let hex = '#'+(Math.random()*0xFFFFFF<<0).toString(16);
-		      let embed = new Discord.RichEmbed()
-            .addField("Commands", '!help - !fortnite')
-            .setColor(hex)
-            message.author.send(embed)
+		 
   		message.reply(":white_check_mark: Please Check Your **DM**'s!").then(m => {
                 setTimeout(() => {
                     m.delete(m)
