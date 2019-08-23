@@ -32,10 +32,11 @@ client.on('message', message => {
   	if (message.content === '!help') {
 		  message.delete(message)
             message.author.send("**Commands** \n !help \n !gen")
-  		message.reply(":white_check_mark: Please Check Your **DM**'s!").then(m => {
-                setTimeout(() => {
-                    m.delete(m)
-                }, 5000); //5 seconds
+message.channel.send({embed: {
+  color: 3447003,
+  description: ":white_check_mark: Please Check Your **DM**'s!"
+}});
+  		
             })
   	}
   
