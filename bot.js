@@ -35,7 +35,6 @@ client.on('message', message => {
 message.channel.send({embed: {
   color: 3447003,
   description: ":white_check_mark: Please Check Your **DM**'s!"
-}});
   		
             })
   	}
