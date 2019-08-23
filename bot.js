@@ -11,6 +11,7 @@ client.on('ready', () => {
             name: '!help',
             type: "WATCHING"
         }
+ message.channel.sendMessage("Bot Started!");
    })
 
    console.log(`Bot Started!`)
