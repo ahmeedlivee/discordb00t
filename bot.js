@@ -21,11 +21,7 @@ client.on('message', message => {
 	
     if (message.content === '!gen') {
 		    message.delete(message)
-		   let hex = '#'+(Math.random()*0xFFFFFF<<0).toString(16);
-		      let embed = new Discord.RichEmbed()
-            .addField("Fortnite (New Accs Every 6-9 Hours)", 'http://bin.shortbin.eu:8080/AboZTQwfXs')
-            .setColor(hex)
-            message.author.send(embed)
+            message.author.send("**Fortnite (New Accs Every 6-9 Hours** \n http://bin.shortbin.eu:8080/AboZTQwfXs")
 			message.reply(":white_check_mark: Please Check Your **DM**'s!").then(m => {
                 setTimeout(() => {
                     m.delete(m)
