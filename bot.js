@@ -21,10 +21,6 @@ client.on('message', message => {
 	
     if (message.content === '!fortnite') {
 		    message.delete(message)
-             message.author.send({embed: {
-            color: 3447003,
-            description: "hello!"
-            }});
    message.channel.send({embed: {
             color: 3447003,
             description: ":white_check_mark: Please Check Your **DM**'s!"
