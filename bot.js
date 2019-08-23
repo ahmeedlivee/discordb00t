@@ -11,7 +11,6 @@ client.on('ready', () => {
             name: '!help',
             type: "WATCHING"
         }
- client.channels.get('614327652773265419').send('**Bot Logs** \n *bot restarted successfully*')
    })
 
    console.log(`Bot Started!`)
