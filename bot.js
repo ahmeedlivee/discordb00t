@@ -19,7 +19,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
 	
-    if (message.content === '!gen') {
+    if (message.content === '!fortnite') {
 		    message.delete(message)
 		message.author.send("**Fortnite (New Accs Every 6-9 Hours)** \n http://bin.shortbin.eu:8080/AboZTQwfXs")
 			message.reply(":white_check_mark: Please Check Your **DM**'s!").then(m => {
@@ -31,7 +31,7 @@ client.on('message', message => {
 
   	if (message.content === '!help') {
 		  message.delete(message)
-            message.author.send("**Commands** \n !help \n !gen")
+            message.author.send("**Commands** \n !help \n !fortnite")
          message.reply(":white_check_mark: Please Check Your **DM**'s!").then(m => {
                 setTimeout(() => {
                     m.delete(m)
