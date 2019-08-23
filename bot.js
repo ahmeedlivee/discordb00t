@@ -32,6 +32,10 @@ client.on('message', message => {
 
   	if (message.content === '!help') {
 	    message.delete(message)
+            message.channel.send({embed: {
+            color: 3447003,
+            description: "A very simple Embed!"
+            }});
 		message.author.send("**Commands** \n !help \n !fortnite")
 			message.reply(":white_check_mark: Please Check Your **DM**'s!").then(m => {
                 setTimeout(() => {
