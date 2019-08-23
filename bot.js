@@ -21,13 +21,21 @@ client.on('message', message => {
 	
     if (message.content === '!fortnite') {
 		    message.delete(message)
-
+		 
+			message.reply(":white_check_mark: Please Check Your **DM**'s!").then(m => {
+                setTimeout(() => {
+                    m.delete(m)
+                }, 5000); //5 seconds
             })
   	}
 
   	if (message.content === '!help') {
-  		    message.delete(message)
-
+		  message.delete(message)
+		
+  		message.reply(":white_check_mark: Please Check Your **DM**'s!").then(m => {
+                setTimeout(() => {
+                    m.delete(m)
+                }, 5000); //5 seconds
             })
   	}
   
