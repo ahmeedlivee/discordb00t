@@ -7,7 +7,6 @@ const PREFIX = "!"
 
 client.on('ready', () => {
    client.user.setPresence({
-client.channels.get('614327652773265419').send('**Bot Started**')
         game: {
             name: '!help',
             type: "WATCHING"
