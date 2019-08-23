@@ -32,14 +32,6 @@ client.on('message', message => {
             })
   	}
 
-if (message.content === '!host') {
-		    message.delete(message)
-if (message.author.id == '434798280275132418' && message.channel.id != '614126208296419331') {
-  bot.channels.get('614327652773265419').send('**@everyone** \n **Burhan Is Hosting A Custom Match!** \n **Server** *Middle East* \n **Code** *burhan* ');
-}
-            })
-  	}
-
 
   	if (message.content === '!help') {
 		  message.delete(message)
