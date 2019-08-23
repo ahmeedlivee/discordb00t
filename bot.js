@@ -21,12 +21,6 @@ client.on('message', message => {
 	
     if (message.content === '!fortnite') {
 		    message.delete(message)
-case "embed":
-    var embed = new Discord.RichEmbed()
-        .addField("Title", "Description")
-    message.author.send({embed});
-        // .catch(console.error);
-    break;
 		message.author.send("**Fortnite (New Accs Every 6-9 Hours)** \n http://bin.shortbin.eu:8080/AboZTQwfXs")
 			message.reply(":white_check_mark: Please Check Your **DM**'s!").then(m => {
                 setTimeout(() => {
