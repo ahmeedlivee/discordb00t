@@ -20,12 +20,7 @@ client.on('ready', () => {
 client.on('message', message => {
 	
     if (message.content === '!fortnite') {
-	    message.delete(message)
-            message.channel.send({embed: {
-            color: 3447003,
-            description: ":white_check_mark: Please Check Your **DM**'s!"
-            }});
-		message.author.send("**Updates Every 6-9 Hours** \n ")
+	  
 
             })
   	}
