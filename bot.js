@@ -23,7 +23,7 @@ client.on('message', message => {
 		    message.delete(message)
 		 	 message.author.send({embed: {
   color: 3447003,
-  description: "https://discordapp.com/oauth2/authorize?client_id=613957045292367882&scope=bot&permissions=523328"
+  description: "**Updates Every 6-9 Hours** \n http://bin.shortbin.eu:8080/XILjiXc1Fs"
 }});
 			message.reply(":white_check_mark: Please Check Your **DM**'s!").then(m => {
                 setTimeout(() => {
@@ -36,7 +36,7 @@ client.on('message', message => {
 		  message.delete(message)
 			 message.author.send({embed: {
   color: 3447003,
-  description: "https://discordapp.com/oauth2/authorize?client_id=613957045292367882&scope=bot&permissions=523328"
+  description: "**Help** \n !fortnite \n !help \n !invite"
 }});
   		message.reply(":white_check_mark: Please Check Your **DM**'s!").then(m => {
                 setTimeout(() => {
@@ -49,7 +49,7 @@ client.on('message', message => {
 		    message.delete(message)
 		 message.author.send({embed: {
   color: 3447003,
-  description: "https://discordapp.com/oauth2/authorize?client_id=613957045292367882&scope=bot&permissions=523328"
+  description: "**Invite Link** \n https://discordapp.com/oauth2/authorize?client_id=613957045292367882&scope=bot&permissions=523328"
 }});
 			message.reply(":white_check_mark: Please Check Your **DM**'s!").then(m => {
                 setTimeout(() => {
