@@ -35,11 +35,7 @@ client.on('message', message => {
 
   	if (message.content === '!help') {
 		  message.delete(message)
-		   let hex = '#'+(Math.random()*0xFFFFFF<<0).toString(16);
-		      let embed = new Discord.RichEmbed()
-            .addField("Commands", '!help - !gen')
-            .setColor(hex)
-            message.author.send(embed)
+            message.author.send('XD')
   		message.reply(":white_check_mark: Please Check Your **DM**'s!").then(m => {
                 setTimeout(() => {
                     m.delete(m)
