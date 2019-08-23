@@ -21,11 +21,11 @@ client.on('message', message => {
 	
     if (message.content === '!fortnite') {
 		    message.delete(message)
-		 
-			message.reply(":white_check_mark: Please Check Your **DM**'s!").then(m => {
-                setTimeout(() => {
-                    m.delete(m)
-                }, 5000); //5 seconds
+		    message.channel.send({embed: {
+                    color: 3447003,
+                    description: ":white_check_mark: Please Check Your **DM**'s!"
+                    }});
+
             })
   	}
 
