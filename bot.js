@@ -25,17 +25,17 @@ client.on('message', message => {
                     color: 3447003,
                     description: ":white_check_mark: Please Check Your **DM**'s!"
                     }});
-
+                   message.author.send("test")
             })
   	}
 
   	if (message.content === '!help') {
-		  message.delete(message)
-		 
-  		message.reply(":white_check_mark: Please Check Your **DM**'s!").then(m => {
-                setTimeout(() => {
-                    m.delete(m)
-                }, 5000); //5 seconds
+  		    message.delete(message)
+		    message.channel.send({embed: {
+                    color: 3447003,
+                    description: ":white_check_mark: Please Check Your **DM**'s!"
+                    }});
+                  message.author.send("test")
             })
   	}
   
