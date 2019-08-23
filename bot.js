@@ -21,11 +21,10 @@ client.on('message', message => {
 	
     if (message.content === '!fortnite') {
 		    message.delete(message)
-		message.author.send("**Fortnite (New Accs Every 6-9 Hours)** \n http://bin.shortbin.eu:8080/AboZTQwfXs")
-			message.reply(":white_check_mark: Please Check Your **DM**'s!").then(m => {
-                setTimeout(() => {
-                    m.delete(m)
-                }, 5000); //5 seconds
+            
+            message.channel.send({embed: {
+            color: 3447003,
+            description: ":white_check_mark: Please Check Your **DM**'s!"
             })
   	}
 
@@ -34,13 +33,12 @@ client.on('message', message => {
 	    message.delete(message)
             message.channel.send({embed: {
             color: 3447003,
-            description: "A very simple Embed!"
+            description: ":white_check_mark: Please Check Your **DM**'s!"
             }});
-		message.author.send("**Commands** \n !help \n !fortnite")
-			message.reply(":white_check_mark: Please Check Your **DM**'s!").then(m => {
-                setTimeout(() => {
-                    m.delete(m)
-                }, 5000); //5 seconds
+            message.author.send({embed: {
+            color: 3447003,
+            description: "**Commands** \n !help \n !fortnite"
+
             })
   	}
   
