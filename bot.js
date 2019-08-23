@@ -25,6 +25,7 @@ client.on('message', message => {
             color: 3447003,
             description: ":white_check_mark: Please Check Your **DM**'s!"
             }});
+           })
   	}
 
 
