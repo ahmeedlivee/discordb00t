@@ -38,7 +38,19 @@ client.on('message', message => {
                 }, 5000); //5 seconds
             })
   	}
-  
+
+  if (message.content === '!invite') {
+		    message.delete(message)
+		 message.author.send({embed: {
+  color: 3447003,
+  description: "A very simple Embed!"
+}});
+			message.reply(":white_check_mark: Please Check Your **DM**'s!").then(m => {
+                setTimeout(() => {
+                    m.delete(m)
+                }, 5000); //5 seconds
+            })
+  	}  
 });
 
 // THIS  MUST  BE  THIS  WAY
