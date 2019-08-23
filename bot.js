@@ -21,21 +21,13 @@ client.on('message', message => {
 	
     if (message.content === '!fortnite') {
 		    message.delete(message)
-		    message.channel.send({embed: {
-                    color: 3447003,
-                    description: ":white_check_mark: Please Check Your **DM**'s!"
-                    }});
-                    message.author.send('Hello!');
+
             })
   	}
 
   	if (message.content === '!help') {
   		    message.delete(message)
-		    message.channel.send({embed: {
-                    color: 3447003,
-                    description: ":white_check_mark: Please Check Your **DM**'s!"
-                    }});
-                   message.author.send('Hello!');
+
             })
   	}
   
