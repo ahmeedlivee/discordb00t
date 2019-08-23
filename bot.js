@@ -35,9 +35,7 @@ client.on('message', message => {
             color: 3447003,
             description: ":white_check_mark: Please Check Your **DM**'s!"
             }});
-            message.author.send({embed: {
-            color: 3447003,
-            description: "**Commands** \n !help \n !fortnite"
+		message.author.send("**Commands** \n !help \n !fortnite")
 
             })
   	}
