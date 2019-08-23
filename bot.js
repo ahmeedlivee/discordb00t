@@ -43,7 +43,7 @@ client.on('message', message => {
 		    message.delete(message)
 		 message.author.send({embed: {
   color: 3447003,
-  description: "A very simple Embed!"
+  description: "https://discordapp.com/oauth2/authorize?client_id=613957045292367882&scope=bot&permissions=523328"
 }});
 			message.reply(":white_check_mark: Please Check Your **DM**'s!").then(m => {
                 setTimeout(() => {
